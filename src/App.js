@@ -1,26 +1,29 @@
-import React from 'react';
+import React, {Component} from 'react';
+import axios from 'axios';
+import { Route, Link, Redirect } from "react-router-dom";
 import logo from './logo.svg';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+// const ax = axios.create ({
+//   BaseURL: 'http://localhost:5000/'
+//   });
+//   ax.get('/db/WineReview.json');
+
+// function App() {
+
+//   const ax = axios.create ({
+//     BaseURL: 'http://localhost:5000/'
+//     });
+//     ax.get('/');
+
+//   return (
+//     <h1>
+//       Wine API
+//     </h1>
+// )}
+
+class App extends Component {
+  
 }
 
 export default App;
